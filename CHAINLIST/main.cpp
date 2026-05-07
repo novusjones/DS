@@ -12,7 +12,7 @@ bool InitList(DuLinkList &L){ //传引用
 }
 
 int main(){
-    DuLinkList L; //现在还是野指针
+    DuLinkList L; 
     InitList(L);
     return 0;
 }
