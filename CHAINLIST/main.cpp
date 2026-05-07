@@ -11,6 +11,7 @@ bool InitList(DuLinkList &L){ //传引用
    return true;
 }
 
+
 int main(){
     DuLinkList L; 
     InitList(L);
